@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/pg": "^8.6.5",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
+    "npm": "^8.15.0",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "tsyringe": "^4.7.0"
+  },
+  "name": "workmate-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch && cross-env ENV=dev nodemon dist/Application.js",
+    "test": "tsc && cross-env ENV=dev node dist/Application.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
